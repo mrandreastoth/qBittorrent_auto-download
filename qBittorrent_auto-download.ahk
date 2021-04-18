@@ -1,4 +1,4 @@
-; qBittorent Auto-Download
+; qBittorrent Auto-Download
 ;   AutoHotkey 1.1.33.06 script for Windows by Andreas Toth
 ;   Auto-adds torrent link in sequential order with first and last pieces first - configurable via tray icon
 
@@ -8,13 +8,13 @@
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-app_info_text := ["qBittorent Auto-Download", "By: Andreas Toth", "At: 2021-04-18 20:30"]
+app_info_text := ["qBittorrent Auto-Download", "By: Andreas Toth", "At: 2021-04-19 00:20"]
 app_menu_info_separator_before := true
 app_menu_info_separator_after := true
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-; The following configuration data was obtained from qBittorent 4.3.4.1 running under Windows 10
+; The following configuration data was obtained from qBittorrent 4.3.4.1 running under Windows 10
 ; Note that widgets cannot be queried dynamically as they are not native controls
 
 ; qBitttorent add torrent link dialog
